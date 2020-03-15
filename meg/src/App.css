@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
 
-.App{
+.content{
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -8,6 +8,7 @@
     font-family: 'Bellota Text', sans-serif;
     flex-direction: column;
     text-align: center;
+    cursor: arrow;
 }
 
 .sosialeMedier{
@@ -23,4 +24,17 @@
 .sosiallogo{
     height: 50px;
     justify-self: center;
+}
+
+.circle{
+    width: 0px;
+    height: 0px;
+    border: 2.5px solid black;
+    border-radius: 50%;
+    animation: circleAnimation 1.5s forwards;
+}
+
+@keyframes circleAnimation{
+    from{width: 0px; height: 0px; display: block;}
+    to{width: 40px; height: 40px; opacity: 0%;}
 }
