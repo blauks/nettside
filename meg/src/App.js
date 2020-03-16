@@ -10,8 +10,8 @@ function App() {
   const handleMouseClick = event => {
     addxds({
       obj: [...xds.obj ,{
-        left: event.clientX,
-        top: event.clientY,
+        left: event.pageX-20,
+        top: event.pageY-20,
         position: 'absolute'
       }]
     })

@@ -27,14 +27,21 @@
 }
 
 .circle{
-    width: 0px;
-    height: 0px;
+    position: absolute;
     border: 2.5px solid black;
     border-radius: 50%;
-    animation: circleAnimation 1.5s forwards;
+    animation: circleAnimation 1s forwards ease-out;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
 }
 
 @keyframes circleAnimation{
-    from{width: 0px; height: 0px; display: block;}
+    from{width: 0px; height: 0px; transform: translate(17px, 17px);}
     to{width: 40px; height: 40px; opacity: 0%;}
 }
