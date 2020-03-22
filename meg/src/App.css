@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
 
+.App{
+    height: 100%;
+}
+
 .content{
     display: flex;
     height: 100vh;
@@ -37,8 +41,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 40px;
-    height: 40px;
 }
 
 @keyframes circleAnimation{

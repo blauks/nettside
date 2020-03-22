@@ -18,7 +18,7 @@ function App() {
   }
   
   return (
-    <div className="App" id="App" onClick={handleMouseClick}>
+    <div className="App" onClick={handleMouseClick}>
       <div className="circles">
         {xds.obj.map(function(d, i){
           return <div className="circle" key={i} style={d}/>
