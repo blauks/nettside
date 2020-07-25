@@ -26,10 +26,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/f1">
+        <Route exact path="/f1">
           <Main/> 
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <div className="App" onClick={handleMouseClick}>
             <div className="circles">
               {xds.obj.map(function(d, i){
