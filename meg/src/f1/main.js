@@ -38,8 +38,8 @@ function Main() {
         <div class={"standings"}>
          {standings['MRData']['StandingsTable']['StandingsLists'][0]['DriverStandings'].map(function(d, i){
              return <>
-                        <img width="250px" src={"https://www.formula1.com/content/fom-website/en/drivers/"+ getNormalizedNameForLink(d.Driver.givenName, d.Driver.familyName)
-                                                + "/_jcr_content/image.img.1920.medium.jpg"} alt="Driver"/>
+                        <a href={d.Driver.url} target="_blank" rel="noopener noreferrer"><img width="250px" src={"https://www.formula1.com/content/fom-website/en/drivers/"+ getNormalizedNameForLink(d.Driver.givenName, d.Driver.familyName)
+                                                + "/_jcr_content/image.img.1920.medium.jpg"} alt="Driver"/></a>
                          <p>{i+1 + ": " + d.Driver.familyName + ", Points: " + d.points}</p>
                     </>
          })}
