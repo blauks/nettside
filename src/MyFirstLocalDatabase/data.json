@@ -1,0 +1,36 @@
+{
+  "info": "Hi 👋\nI am a 21 year old developer from Bærum, Norway, who is currently pursuing a master’s degree in Informatics at NTNU in Trondheim. Some of my interests include security, Formula 1, and cross country skiing.",
+  "programming": ["JavaScript/Typescript", "C#", "Python", "Java"],
+  "technologies": [
+    "React.JS",
+    "ASP.NET",
+    "Spring",
+    "Tailwind CSS",
+    "MongoDB",
+    "Node",
+    "MySQL",
+    "NPM/Yarn",
+    "AWS",
+    "Azure",
+    "DigitalOcean",
+    "Docker",
+    "Apollo Graphql",
+    "Git"
+  ],
+  "work": [
+    {
+      "company": "Alv AS",
+      "title": "Summer Intern",
+      "period": "June 2021 - July 2021",
+      "description": "This summer I had the opportunity to participate in the Aize Machine Learning Camp, through Alv. Aize is a new company who's main goals are to digitize and optimize the way heavy-asset projects are run. My summer project was to use machine learning to find the most cost efficient method to split up piping, used on ships and oil platforms, before construction.",
+      "imgurl": "https://media-exp1.licdn.com/dms/image/C4E0BAQGaT6019P5fdQ/company-logo_200_200/0/1625495929363?e=1635984000&v=beta&t=dyXN3vtDFRsPiGoIXfmJHSciz4moDBzwS4Seeyq0jyc"
+    },
+    {
+      "company": "Kodeworks",
+      "title": "Summer Intern",
+      "period": "June 2020 - August 2020",
+      "description": "Kodeworks is a consultancy firm, based in Oslo and Trondheim, which carries out projects within counselling, design and development of IT-systems. During the summer I have worked with Inatur, which is Norways biggest marketplace for hunting, fishing and cabin rental in the Norwegian nature. I have had the responsibility for maintaining and further developing their website, which I have accomplished by using technologies such as Java, Spring, React.js, JavaScript and Heroku.",
+      "imgurl": "https://media-exp1.licdn.com/dms/image/C4E0BAQFp4JXToRDixw/company-logo_200_200/0/1534939382251?e=1635984000&v=beta&t=ZSiXAHSFcuZkxu6PsqXQm_spcNtjDTiw3Lz2cCKg3iU"
+    }
+  ]
+}
