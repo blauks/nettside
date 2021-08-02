@@ -27,7 +27,7 @@ const Work = ({
       className="flex p-2 mb-4 shadow-lg cursor-pointer bg-gray-50"
       onClick={handleOnClick}
     >
-      <img src={imgurl} alt="Job logo" className="w-12 h-12 mr-3" />
+      <img src={imgurl} alt="Job logo" className="w-12 h-full mr-3" />
       <div>
         <p>
           {title} - {company}

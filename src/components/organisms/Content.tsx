@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../atoms/Contact";
 import List from "../atoms/List";
 import Paragraph from "../atoms/Paragraph";
 import Title, { FontSize } from "../atoms/Title";
@@ -28,7 +29,7 @@ const Content = ({ title, text, list, work }: ContentType) => {
         </>
       );
     } else {
-      <p>You need to define either a paragraph, a list, or work</p>;
+      return <Contact />;
     }
   };
 
